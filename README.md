@@ -14,7 +14,7 @@ Ce projet est développé en Python avec Pygame et évolue continuellement pour 
 
 ##  Description du jeu
 
-SCOPIONS TIC TAC TOE reprend le principe du morpion classique (aligner trois cases), mais en y ajoutant une mécanique originale basée sur les **nombres**.
+SCOPIONS TIC TAC TOE reprend le principe du morpion classique (aligner trois cases), mais en y ajoutant une mécanique originale basée sur les **nombres** ayant le concepte que la table soit en 4x4.
 
 Chaque tour, le joueur choisit un chiffre dans un pavé numérique.  
 Les chiffres sont divisés en deux catégories :
@@ -22,7 +22,7 @@ Les chiffres sont divisés en deux catégories :
 - jusqu'a 16**Chiffres pairs (2, 4, 6, 8, 10, …)** → Joueur  
 - jusqu'a 19**Chiffres impairs (1, 3, 5, 7, 9, …)** → Adversaire (IA)
 
-Le plateau se remplit donc avec des valeurs numériques, ce qui donne une identité unique au jeu.  
+Le plateau se remplit donc avec des valeurs numériques pour chaque case utiliser il lui appartient sauf si on lui ole en utilisant un operateur, ce qui donne une identité unique au jeu.  
 Les chiffres impairs sont affichés avec un symbole visuel (losange) pour indiquer qu’ils sont **réservés à l’IA** et **inutilisables par le joueur**.
 
 Le jeu mélange ainsi :
@@ -49,7 +49,7 @@ Le premier à réaliser un alignement gagne la partie et il devra si il veut con
 
 ###  2. Le pavé numérique
 Le jeu utilise un pavé numérique contenant plusieurs chiffres.  
-Chaque chiffre peut être utilisé **une seule fois**.
+Chaque chiffre peut être utilisé  .
 
 - Les **chiffres pairs** sont jouables par le joueur.  
 - Les **chiffres impairs** sont réservés au bot et ne peuvent pas être sélectionnés par le joueur.
@@ -99,7 +99,7 @@ Un message de victoire ou d’égalité apparaît, et une nouvelle partie peut �
 ---
 
 ##  Développeur
-Projet créé par **Ahmed Yassine SAidi**, lycéen passionné de développement et de création de jeux vidéo.  
+Projet developper par **Ahmed Yassine SAidi**, lycéen passionné de développement et de création de jeux vidéo.  
 Objectif : apprendre, progresser, et construire un jeu complet sur le long terme.
 
 ---
